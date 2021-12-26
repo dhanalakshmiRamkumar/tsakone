@@ -1,0 +1,88 @@
+OBJECT AND INTERNAL REPRESENTATION IN JAVASCRIPT
+
+First of all I need to say object in JavaScript is different from other languages like java , c, c++ etc.
+coming to the point,
+  Object in javascript means is a collect of data having state ,properties and method.
+  
+Object in JavaScript different from primitive data type ( number, string, Boolean, undefined)
+ object are actually non primitive data type (function , null, array)..etc.
+For example: collection like car, people, bike .,etc
+lets take a car example: 
+
+CAR
+
+model: BMW m series
+color: Red
+fuel: Petrol
+
+taking above thins I will explain you object and its properties:
+object
+var car = "bmw";
+ object are variable too . object contain may value such as,
+var car = {model:BMW m series, color:Red, fuel:Petrol};
+ 
+conclusion javascript can contain only named value.
+
+properties:
+actually the name:value pair is called properties
+
+var car = {model:BMW m series, color:Red, fuel:Petrol};
+
+you can see the properties below
+model
+bmw m series
+color
+red
+fuel
+petrol
+now if you need to add a new object in the properties 
+the syntax for adding the properties
+ objectname.objectproperties = propertiesvalue;
+
+for deleting a object 
+the syntax are:
+delete.objectpropeties = properties value;
+
+I hope this example will help you
+
+conclusion the simple definition of object in javascript
+
+thank you. 
+
+
+ HTTP/1.1 VS HTTP/2
+ 
+ 
+DIFFERNCE BETWEEN HTTP/1.1 AND HTTP/2
+​
+HTTP/1.1
+HTTP/2
+    YEAR
+1.1      1997
+2        2015
+	
+    key features
+HTTP/1.1         it support connections reuse i.e for every  TCP connection there could be multiple requeste,respondes and pipeling where the client can request several resources
+
+HTTP/2           uses multiplexing, where over a single TCP connection resources to be delivered are interleaved and arrive the client almost at same time it is done using streams which can be prioritized, can have dependences and individual flow control. it also provide a feature called sever
+
+
+Status Code
+​HTTP/1.1         Introduces a warning header field to carry additional information about the status of a message. Can define 24 status codes, error reporting is quicker and more efficient.
+
+HTTP/2           Underlying semantics of HTTP such as headers, status codes remains the same.
+
+Authentication Mechanism
+​1.1            It is relatively secure since it uses digest authentication, NTLM authentication.
+
+2              Security concerns from previous versions will continue to be seen in HTTP/2. However, it is better equipped to deal with them due to new TLS features like connection error of type Inadequate Security.
+
+
+Caching
+1.1          Expands on the caching support by using additional headers like cache-control, conditional headers like If-Match and by using entity tags.
+
+2             HTTP/2 does not change much in terms of caching. With the server push feature if the client finds the resources are already present in the cache, it can cancel the pushed stream.
+
+I HAVE PUBLISED IN WIX WEBSITE EDITOR 
+THE LINK:
+       https://editor.wix.com/html/editor/web/renderer/edit/d73dd729-e786-42ba-906a-bcabdb0698ad?metaSiteId=cbcf1938-bf89-48b8-9aaf-0ca391bfbc40
